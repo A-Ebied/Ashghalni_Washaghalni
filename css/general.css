@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {margin:0;font-family:Arial}
+
+.container
+{
+    width: 80%;
+    margin:auto;
+}
+
+.center-txt
+{
+    text-align:center;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+a.a-white
+{
+    color:white;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.table-1{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.table-2{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-bottom: 20px;
+}

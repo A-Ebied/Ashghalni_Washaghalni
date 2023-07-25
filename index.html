@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/general.css">
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/containt.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/indexSlideToggle.js"></script>
+</head>
+<body>
+
+<!-- nav {start}-->
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="activenav">Home</a>
+  <a href="html/jobs.html">Jobs</a>
+  <a href="html/contact.html">Contact</a> 
+  <a href="html/register.html">Register</a>
+  <a href="html/login.html">Login</a>
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<!-- nav {end}-->
+
+<!-- containt {start}-->
+<div class="header">
+  <h1 class="center-txt">~~ Ashghalni Washaghalni ~~</h1>
+</div>
+<div class="container">
+
+  <div class="row">  
+    <div class="col-3 col-s-3 menu">
+      <h4 class="center-txt"> Most Popular Jobs</h4>
+      <ul>
+        <li style="cursor: pointer;" id="it_flip" title="See Examples">IT Jobs</li>
+        <div id="it_panel" class="panel">
+          <p>- Ruby ON Rails Developer</p>
+          <p>- IT Manager</p>
+          <p>- IT Software Account Manager</p>
+          <p>- IT Specialist</p>
+          <p>- Mobile Full Stack Developer</p>
+          <div style="text-align: center">
+            <button class="btn-slide">See all IT Jobs</button>
+          </div>
+        </div>
+
+        <li style="cursor: pointer;" id="eng_flip" title="See Examples">Engineering Jobs</li>  
+        <div id="eng_panel" class="panel">
+          <p>- Electrical Engineer</p>
+          <p>- Design Precast Engineer</p>
+          <p>- Planning Engineer</p>
+          <div style="text-align: center">
+            <button class="btn-slide">See all Engineering Jobs</button>
+          </div>
+        </div>
+
+        <li style="cursor: pointer;" id="med_flip" title="See Examples">Medical Jobs</li> 
+        <div id="med_panel" class="panel">
+          <p>- Medical Representative</p>
+          <p>- Health Teacher</p>
+          <p>- Medical Devices Sales</p>
+          <div style="text-align: center">
+            <button class="btn-slide">See all Medical Jobs</button>
+          </div>
+        </div>
+
+        <li style="cursor: pointer;" id="tour_flip" title="See Examples">Tourism Jobs</li>
+        <div id="tour_panel" class="panel">
+          <p>- Senior Tour Operator</p>
+          <p>- Tourism Manager</p>
+          <p>- Sales Manager (Travel & Tourism)</p>
+          <div style="text-align: center">
+            <button class="btn-slide">See all Tourism Jobs</button>
+          </div>
+        </div>
+        
+        <li style="cursor: pointer;" id="craft_flip" title="See Examples">Craft Jobs</li>
+        <div id="craft_panel" class="panel">
+          <p>- Electrical jobs</p>
+          <p>- Plumbing Jobs</p>
+          <p>- Carpentry Jobs</p>
+          <div style="text-align: center">
+            <button class="btn-slide">See all Craft Jobs</button>
+          </div>
+        </div>
+
+      </ul>
+    </div>
+    
+    <div class="col-6 col-s-9">
+      <h2>The largest site in Egypt</h2>
+      <p>We will connect you to vacant jobs and job opportunities in the largest companies in Egypt, whatever your skills, experience or education level.</p>
+    
+    <form action="" method="GET">
+      <div class="search-box">
+        <input type="search" name="search" class="search-input" placeholder="Search" autofocus>
+        <button type="submit" class="search-btn">Search</button>
+      </div>
+    </form>
+    </div>
+    
+    <div class="col-3 col-s-3 menu">
+      <h4 class="center-txt">Governorates</h4>
+      <ul>
+        <a href="#" class="a-white"> <li>Cairo</li></a>
+        <a href="#" class="a-white"> <li>Sharqiya</li></a>
+        <a href="#" class="a-white"> <li>North Sinai</li></a>
+        <a href="#" class="a-white"> <li>Ismailia</li></a>
+        <a href="#" class="a-white"> <li>Dakahlia</li></a>
+      </ul>
+    </div>
+  </div>
+  
+  <br/>
+  <h2 style="color:red;">The companies</h2>
+  <div class="companies">
+    <div class="com-row">
+      <div class="company">
+        <img src="image/google.png" style="width:100%;" id="img1"/>
+        <button class="button button1">Google</button>
+      </div>
+      <div class="company">
+        <img src="image/face.jpg" style="width:100%;" id="img2"/>
+        <button class="button button2">Facebook</button>
+      </div>
+      <div class="company">
+        <img src="image/micro.jpg" style="width:100%;" id="img3"/>
+        <button class="button button3">Microsoft</button> 
+      </div>
+      <div class="company">
+        <img src="image/coca.png" style="width:100%;" id="img4"/>
+        <button class="button button4">Coca-Cola</button>
+      </div>
+    </div>
+    <div class="com-row">
+      <div class="company">
+        <img src="image/quick.jpg" style="width:100%;" id="img5"/>
+        <button class="button button3">QuicK Connect </button>
+      </div>
+      <div class="company">
+        <img src="image/apple.png" style="width:100%;" id="img6"/>
+        <button class="button button5">Apple</button>
+      </div>
+      <div class="company">
+        <img src="image/oracle.png" style="width:100%;" id="img7"/>
+        <button class="button button4">Oracle</button>
+      </div>
+      <div class="company">
+        <img src="image/we.webp" style="width:100%;" id="img8"/>
+        <button class="button button5">We</button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<!-- containt {end}-->
+
+<!-- footer {start}-->
+<div class="footer">
+  <p>Copyright © 2022-Ashghalni Washaghalni.</p>
+</div>
+<script language="javascript" type="text/javascript" src="js/nav.js"></script>
+<script language="javascript" type="text/javascript" src="js/importantfunc.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/containt.css" />
+    <link rel="stylesheet" href="../css/resslides.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/log.css" />
+  </head>
+  <body>
+    <!-- nav {start}-->
+    <div class="topnav" id="myTopnav">
+      <a href="../index.html">Home</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="contact.html">Contact</a>
+      <a href="register.html" class="activenav">Register</a>
+      <a href="login.html">Login</a>
+
+      <a
+        href="javascript:void(0);"
+        style="font-size: 15px"
+        class="icon"
+        onclick="myFunction()"
+        >&#9776;</a
+      >
+    </div>
+    <!-- nav {end}-->
+    <!-- containt {start}-->
+    <div class="header">
+      <h1 class="center-txt">~~ Ashghalni Washaghalni ~~</h1>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- containt {end}-->
+    <div class="clearfix"></div>
+    <div class="container">
+      <div class="title">Register</div>
+      <form action="" name="register" onsubmit="return(validateRegister());">
+        <div class="row">
+          <div class="column">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Your name here" />
+          </div>
+          <div class="column">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Your email here" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Your password here"
+            />
+          </div>
+          <div class="column">
+            <label for="contact">Contact Number</label>
+            <input
+              type="text"
+              name="contact"
+              id="contact"
+              placeholder="Your phone number here"
+            />
+          </div>
+        </div>
+        <button class="" title="Enter the required fields first">Submit</button>
+      </form>
+    </div>
+    <!-- Said: Validate register form using js -->
+    <script src="../js/log.js"></script>
+    <!-- footer {start}-->
+    <div class="footer">
+      <p>Copyright © 2022-Ashghalni Washaghalni.</p>
+    </div>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="js/nav.js"
+    ></script>
+  </body>
+</html>
